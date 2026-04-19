@@ -13,6 +13,7 @@
     <!-- Nav Bar -->
     <nav class="bg-white shadow-md fixed w-full z-10">
         <div class="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
+            <!-- LOGO -->
             <div class="flex items-center gap-3 text-pink-500 text-xl">
                 <img src="../images/Logo.png" alt="Logo" class="w-12 h-12 object-contain">
                 <span class="">Breast Cancer Awareness</span>
@@ -27,8 +28,29 @@
                 <li><a href="prevention.html" class="hover:text-pink-500">Prevention</a></li>
                 <li><a href="find_help.html" class="hover:text-pink-500">Find Help</a></li>
             </ul>
+
+            <button id="menu-btn" class="md:hidden text-pink-600 text-2xl">☰</button>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="menu" class="md:hidden flex flex-col px-4 pb-4 space-y-2 font-medium">
+            <a href="index.html" class="text-pink-500">Home</a>
+            <a href="about.html" class="hover:text-pink-500">About</a>
+            <a href="symptoms.html" class="hover:text-pink-500">Symptoms</a>
+            <a href="self-check.html" class="hover:text-pink-500">Self Check</a>
+            <a href="prevention.html" class="hover:text-pink-500">Prevention</a>
+            <a href="find_help.html" class="hover:text-pink-500">Find Help</a>
+
         </div>
     </nav>
+
+    <script>
+        const btn = document.getElementById('menu-btn');
+        const menu = document.getElementById('menu');
+            
+        btn.addEventListener('click', () => {
+          menu.classList.toggle('hidden');
+        });
+    </script>
 
     <!-- Hero Section -->
     <section class="pt-28 pb-16 px-6">
