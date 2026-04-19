@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Awareness</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Nav Bar -->
+    <nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
+            <div class="flex items-center gap-3 text-pink-500 text-xl">
+                <img src="../images/Logo.png" alt="Logo" class="w-12 h-12 object-contain">
+                <span class="">Breast Cancer Awareness</span>
+            </div>
+            <!-- <h1 class="text-pink-500 font-bold text-xl">🎗 Awareness</h1> -->
+
+            <ul class="hidden md:flex space-x-6 font-medium">
+                <li><a href="#" class="text-pink-500">Home</a></li>
+                <li><a href="./about.html" class="hover:text-pink-500">About</a></li>
+                <li><a href="./symptoms.html" class="hover:text-pink-500">Symptoms</a></li>
+                <li><a href="self-check.html" class="hover:text-pink-500">Self-Check</a></li>
+                <li><a href="prevention.html" class="hover:text-pink-500">Prevention</a></li>
+                <li><a href="find_help.html" class="hover:text-pink-500">Find Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-28 pb-16 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+            <!-- Text -->
+            <div class="">
+                <h1 class="text-4xl md:text-5xl font-bold text-pink-500 mb-4">
+                    Breast Cancer Awareness
+                </h1>
+                <p class="text-lg mb-6">
+                    Early detection saves lives. Learn, check and take action today.
+                </p>
+
+                <div class="space-x-4">
+                    <button class="bg-pink-500 text-white px-6 py-3 rounded-lg shadow hover:bg-pink-600">
+                        Learn More
+                    </button>
+                    <a href="guide.html" class="">
+                        <button class="border border-pink-500 px-6 py-3 rounded-lg shadow hover:bg-pink-50">
+                        Self-Check Guide
+                        </button>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <!-- Image -->
+             <!-- https://img.freepik.com/free-vector/breast-cancer-awareness-concept_23-2148584832.jpg -->
+            <div class="">
+                <img src="../images/Breast cancer awareness concept_ Girl with pink ribbon_.jfif" 
+                alt="Awareness" class="rounded-xl shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-12 px-6 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-4">About Breast Cancer</h2>
+            <p class="text-gray-600 max-w-2xl mx-auto">
+                Breast cancer is a disease where abnormal cells grow uncontrollably in the breast. It can begin in the milk ducts or lobules and may spread if not detected early. <a href="about.html" class="text-blue-300">Learn more.</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Sypmtoms -->
+    <section class="py-16 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800">Symptoms of Breast cancer</h2>
+
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Lumps -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/lump.png" alt="Lump in Breast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Lump in Breast</h3>
+                        <!-- <p class="text-sm text-gray-600 mt-2">
+                            A noticeable lump or thickening in the breast tissue.
+                        </p> -->
+                    </div>
+                </div>
+                <!-- Pain -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/pain.png" alt="Pain in Breast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Breast Pain</h3>
+                        <!-- <p class="text-sm text-gray-600 mt-2">
+                            Persistent pain or discomfort in any part of the breast.
+                        </p> -->
+                    </div>
+                </div>
+                <!-- Shape Changes -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/shape.png" alt="Change in Shape" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Change in Shape</h3>
+                        <!-- <p class="text-sm text-gray-600 mt-2">
+                            Unusual change in size or shape of then breast.
+                        </p> -->
+                    </div>
+                </div>
+                <!-- Skin Changes -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/dimpling.png" alt="Change in Shape" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Skin Dimpling</h3>
+                        <!-- <p class="text-sm text-gray-600 mt-2">
+                            Skin may appear puckered or like orange peel.
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Self Examination -->
+     <section class="py-12 px-6 bg-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <!-- Title -->
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-8">Self Examination Guide</h2>
+            <!-- Steps -->
+            <div class="grid md:grid-cols-4 gap-10">
+                <!-- Step 1 -->
+                <div class="relative group">
+                    <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="../images/mirror.png" alt="" class="w-full h-52 object-cover">
+
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold text-pink-500">
+                                Step 1: Mirror Check
+                            </h3>
+                            <p class="text-sm text-gray-600 mt-2">
+                                Stand in front of a mirror and observe any visible change.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Step Number -->
+                    <div class="absolute -top-5 -left-5 bg-pink-500 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold shadow-lg">
+                        1
+                    </div>
+                </div>
+
+                <!-- step 2 -->
+                <div class="relative group">
+                    <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="../images/raise_arm.png" alt="" class="w-full h-52 object-cover">
+
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold text-pink-500">
+                                Step 2: Raise Arms
+                            </h3>
+                            <p class="text-sm text-gray-600 mt-2">
+                                Lift your arms and check for any unusual shape or swelling.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Step Number -->
+                    <div class="absolute -top-5 -left-5 bg-pink-500 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold shadow-lg">
+                        2
+                    </div>
+                </div>
+                <!-- step 3 -->
+                <div class="relative group">
+                    <div class="bg-gray-50 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="../images/feel_for_lumps.png" alt="" class="w-full h-52 object-cover">
+
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold text-pink-500">
+                                Step 3: Feel for Lumps
+                            </h3>
+                            <p class="text-sm text-gray-600 mt-2">
+                                Use your fingers to gently check for lumps and thick areas.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Step Number -->
+                    <div class="absolute -top-5 -left-5 bg-pink-500 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold shadow-lg">
+                        3
+                    </div>
+                </div>
+                <!-- step 4 -->
+                <div class="relative group">
+                    <div class="bg-gray-100 rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition duration-300">
+                        <img src="../images/doctor.png" alt="" class="w-full h-52 object-cover">
+
+                        <div class="p-5">
+                            <h3 class="text-lg font-semibold text-pink-500">
+                                Step 4: Consult a Doctor
+                            </h3>
+                            <p class="text-sm text-gray-600 mt-2">
+                                If you notice anything unusual, seek medical advice immediately.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Step Number -->
+                    <div class="absolute -top-5 -left-5 bg-pink-500 text-white w-10 h-10 flex items-center justify-center rounded-full font-bold shadow-lg">
+                        4
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Prevention -->
+     <section class="py-16 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <!-- Title -->
+            <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gray-800">Prevention Tips</h2>
+
+            <!-- Cards -->
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- exercise -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/exercise.png" alt="Lump in Breast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Regular Exercise</h3>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Stay active with regular physical activities.
+                        </p>
+                    </div>
+                </div>
+                <!-- Healthy Diet -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/good_diet.png" alt="Lump in Breast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Healhty Diet</h3>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Eat a balance diet rich in vegetables and fruits.
+                        </p>
+                    </div>
+                </div>
+                <!-- exercise -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/alcohol.png" alt="Lump in Breast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Limit Alcohol</h3>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Avoid Alcohol consumption.
+                        </p>
+                    </div>
+                </div>
+                <!-- Screening -->
+                <div class="bg-white rounded-2xl shadow-md overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="../images/check_up.png" alt="Lump in Breast" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="font-semibold text-lg text-pink-500">Annual Screening</h3>
+                        <p class="text-sm text-gray-600 mt-2">
+                            Get regular mammograms and streenings as recommended.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Find Help -->
+     <section class="py-12 px-6 bg-white">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-6">Find Help</h2>
+
+            <input type="text" placeholder="Search hospital or clinic..." class="w-full p-3 border rounded-lg
+            shadow">
+
+            <div class="space-y-4">
+                <div class="flex justify-between bg-gray-50 p-4 rounded-lg shadow">
+                    <p>Gombe Medical Hospital</p>
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Call</button>
+                </div>
+
+                <div class="flex justify-between bg-gray-50 p-4 rounded-lg shadow">
+                    <p>Gombe Health Clinic</p>
+                    <button class="bg-pink-500 text-white px-4 py-2 rounded">Call</button>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- Footer -->
+     <footer class="bg-gray-800 text-white py-6 mt-10">
+        <div class="text-center">
+            <p class="">&copy; 2026 Breast Cancer Awareness</p>
+        </div>
+     </footer>
+    
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Breast Cancer Awareness</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+<body class="bg-linear-to-br from-pink-50 via-white to-pink-100 text-gray-700">
+
+<!-- NAVBAR -->
+<nav class="bg-white shadow-md fixed w-full z-10">
+        <div class="max-w-7xl mx-auto px-6 py-2 flex justify-between items-center">
+            <div class="flex items-center gap-3 text-pink-500 text-xl">
+                <img src="../images/Logo.png" alt="Logo" class="w-12 h-12 object-contain">
+                <span class="">Breast Cancer Awareness</span>
+            </div>
+            <!-- <h1 class="text-pink-500 font-bold text-xl">🎗 Awareness</h1> -->
+
+            <ul class="hidden md:flex space-x-6 font-medium">
+                <li><a href="home.html" class="hover:text-pink-500">Home</a></li>
+                <li><a href="./about.html" class="text-pink-500">About</a></li>
+                <li><a href="./symptoms.html" class="hover:text-pink-500">Symptoms</a></li>
+                <li><a href="self-check.html" class="hover:text-pink-500">Self-Check</a></li>
+                <li><a href="prevention.html" class="hover:text-pink-500">Prevention</a></li>
+                <li><a href="find_help.html" class="hover:text-pink-500">Find Help</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- HERO SECTION -->
+<section 
+  class="relative bg-cover bg-center h-[500px] flex items-center"
+  style="background-image: url('../images/Breast\ Cancer.png');">
+
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-pink-300/60 backdrop-blur-sm"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 px-6 md:px-16 max-w-xl text-white">
+    <h2 class="text-5xl font-bold mb-4 leading-tight">
+      About Breast Cancer
+    </h2>
+    <p class="text-lg mb-3">
+      Learn, Prevent, and Take Action Today.
+    </p>
+    <p class="text-sm opacity-90">
+      Early detection can save lives. Stay informed and take control of your health.
+    </p>
+  </div>
+</section>
+
+<!-- WHAT IS BREAST CANCER -->
+<section class="px-6 md:px-16 py-16">
+  <div class="grid md:grid-cols-2 gap-10 items-center">
+
+    <div>
+      <h3 class="text-3xl font-bold mb-4 text-gray-800">
+        What is <span class="text-pink-600">Breast Cancer?</span>
+      </h3>
+      <p class="leading-relaxed text-lg">
+        Breast cancer is one of the most common cancers worldwide. It occurs when abnormal cells grow uncontrollably in the breast.
+        It can begin in the milk ducts or lobules and may spread if not detected early.
+      </p>
+      <p class="leading-relaxed text-lg mt-2">
+        Many early breast cancers are asymptomatic; pain or discomfort is not usually a symptom of breast cancer. Breast cancer is often first detected as an abnormality on a mammogram before it is felt by the patient or healthcare provider.
+      </p>
+      <p class="leading-relaxed text-lg mt-2">The general approach to evaluation for breast cancer has become formalized as triple assessment: clinical examination, imaging (usually mammography, ultrasonography, or both), and needle biopsy. Increased public awareness and improved screening have led to earlier diagnosis, at stages amenable to complete surgical resection and curative therapies. Improvements in therapy and screening have led to improved survival rates for women diagnosed with breast cancer.
+      </p>
+      <p class="leading-relaxed text-lg mt-2">Surgery and radiation therapy, along with adjuvant hormone or       chemotherapy when indicated, are now considered primary treatment for breast cancer. For many patients      with low-risk early-stage breast cancer, surgery with local radiation is curative.
+      </p>
+      <p class="leading-relaxed text-lg mt-2">Adjuvant breast cancer therapies are designed to treat      micrometastatic disease or breast cancer cells that have escaped the breast and regional lymph nodes but      have not yet established an identifiable metastasis. Depending on the model of risk reduction, adjuvant     therapy has been estimated to be responsible for 35-72% of the decrease in cancer recurrence.
+      </p>
+    </div>
+
+    <div>
+      <img src="../images/Question mark.png" class="">
+    </div>
+
+  </div>
+</section>
+
+<!-- Types + Stages-->
+<section class="px-6 md:px-16 py-10 grid md:grid-cols-2 gap-8">
+
+  <div class="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-2xl transition">
+    <h3 class="text-xl font-semibold mb-3 text-pink-600">Types of Breast Cancer</h3>
+    <!-- Type1 -->
+    <div class="">
+      <h4 class="underline">Non-Invasive</h4>
+      <ul class="space-y-1">
+        <li>• Ductal Carcinoma in Situ (DCIS)- Cancer cells confined to ducts.</li>
+        <li>• Lobular Carcinoma in Situ (LCIS)- Abnormal cells lobules (risk indicator).</li>
+      </ul>
+    </div>
+    <!-- Type2 -->
+    <div class="mt-1">
+      <h4 class="underline">Invasive</h4>
+      <ul class="space-y-1">
+        <li>• Invasive Ductal Carcinoma (IDC)- Spread beyond ducts.</li>
+        <li>• Invasive Lobular Carcinoma (ILC)- Begins in lobules and spread.</li>
+      </ul>
+    </div>
+    <!-- Type3 -->
+    <div class="mt-1">
+      <h4 class="underline">Special Types</h4>
+      <ul class="space-y-1">
+        <li>• Inflammatory Breast Cancer (IBC) - fast growing, causes swelling.</li>
+        <li>• Paget's disease of the breast - affects nipple and areola.</li>
+        <li>• Triple-Negative Breast Cancer (TNBC) - lack hormone receptors.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-2xl transition">
+    <h3 class="text-xl font-semibold mb-3 text-pink-600">Staging of Breast Cancer</h3>
+    <ul class="space-y-2">
+      <li>• Stage 0 - non-invasive</li>
+      <li>• Stage I - small, localized tumor</li>
+      <li>• Stage II - larger tumor</li>
+      <li>• Stage III - advanced local spread</li>
+      <li>• Stage IV - metastasis to distance organs</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- HOW IT DEVELOPS + RISK FACTORS -->
+<section class="px-6 md:px-16 py-10 grid md:grid-cols-2 gap-8">
+
+  <div class="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-2xl transition">
+    <h3 class="text-xl font-semibold mb-3 text-pink-600">How It Develops</h3>
+    <p>
+      Breast cancer often starts in the milk ducts or lobules. It may form lumps and can spread
+      to lymph nodes if not detected early.
+    </p>
+  </div>
+
+  <div class="bg-white/70 backdrop-blur-md p-8 rounded-2xl shadow-lg hover:shadow-2xl transition">
+    <h3 class="text-xl font-semibold mb-3 text-pink-600">Risk Factors</h3>
+    <ul class="space-y-2">
+      <li>• Age and hormonal changes</li>
+      <li>• Family history</li>
+      <li>• Genetic mutations (BRCA1, BRCA2)</li>
+      <li>• Alcohol Consumption</li>
+    </ul>
+  </div>
+
+</section>
+
+<!-- STATISTICS -->
+<section class="px-6 md:px-16 py-16">
+  <h3 class="text-3xl font-bold mb-10 text-gray-800 text-center">
+    Statistics & Facts
+  </h3>
+
+  <div class="grid md:grid-cols-3 gap-6">
+
+    <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+      <h4 class="text-4xl text-pink-600 font-bold">1 in 8</h4>
+      <p class="mt-2 text-sm">Women are diagnosed in their lifetime</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+      <h4 class="text-4xl text-pink-600 font-bold">Early Detection</h4>
+      <p class="mt-2 text-sm">Greatly increases survival rate</p>
+    </div>
+
+    <div class="bg-white p-6 rounded-2xl shadow-lg text-center hover:scale-105 transition">
+      <h4 class="text-4xl text-pink-600 font-bold">Most Common</h4>
+      <p class="mt-2 text-sm">Cancer among women worldwide</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA SECTION -->
+<section class="px-6 md:px-16 py-16 text-center bg-pink-100 rounded-3xl mx-6 md:mx-16 shadow-lg">
+  <h3 class="text-3xl font-bold text-gray-800 mb-4">
+    Take Action Today 🎗️
+  </h3>
+  <p class="mb-6">
+    Learn the warnings signs and take action early.
+  </p>
+
+  <a href="symptoms.html" class="bg-pink-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-pink-700 transition">
+    View Symptoms
+  </a>
+</section>
+
+<!-- FOOTER -->
+<footer class="mt-16 bg-white p-8 text-center text-gray-500">
+  <p>© 2026 Breast Cancer Awareness</p>
+</footer>
+
+</body>
+</html>
